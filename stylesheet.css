@@ -54,6 +54,7 @@ section {
 }
 .home-image {
     background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     position: absolute;
@@ -94,7 +95,7 @@ section {
     background-position: 50% 50%;
 }
 .blog-image-emotional {
-
+    background-image: url("https://picjumbo.imgix.net/HNCK9364.jpg?q=40&w=1650&sharp=30");
     background-color: darkcyan;
     color: white;
     background-size: cover;
@@ -104,6 +105,7 @@ section {
 
 .quote {
     background-image: url("./images/texting-wallpaper-3750x3000.jpg");
+    background-attachment: fixed;
     color: white;
     background-size: cover;
     background-position: 50% 50%;
