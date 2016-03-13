@@ -1,0 +1,205 @@
+/* -------------Customize Typography------------- */
+
+h1 {
+    font-family: 'graphique_pro_next_comp';
+    font-size: 68pt;
+}
+h2 {} 
+h3 {
+    font-family: 'graphique_pro_next_comp';
+    font-size: 48pt;
+}
+h4 {} 
+h5 {}
+/* ---------------Some Basics---------- */
+
+section {
+    text-align: center;
+    padding: 80px 0;
+}
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {}
+/* ---------------Background Images--------------- */
+
+.background-image {
+    position: relative;
+    background-color: darkcyan;
+    color: white;
+    min-height: 500px;
+}
+.background-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: .35;
+}
+/* -----------------Home----------------- */
+
+.home {
+    padding: 0;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.home-image {
+    background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+}
+.home h2 {
+    font-size: 34px;
+    padding: 4px;
+}
+.home-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    margin-top: 220px;
+}
+/* -----------------About---------------- */
+
+.profile-pic {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* ------------------Blog---------------- */
+
+.blog {
+    background-color: darkcyan;
+    color: white;
+}
+/* -----------Blog Post Images------------ */
+
+.blog-image-meditation {
+    background-image: url("./meditation.jpg");
+    background-color: darkcyan;
+    color: white;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.blog-image-emotional {
+
+    background-color: darkcyan;
+    color: white;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/* ----------------Quote----------------- */
+
+.quote {
+    background-image: url("./images/texting-wallpaper-3750x3000.jpg");
+    color: white;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/* ----------------Contact--------------- */
+
+.contact {
+    background-color: darkcyan;
+    color: white;
+}
+/* ------------------Footer-------------- */
+
+footer {
+    padding: 5px;
+    display: inline;
+}
+.copy-stuff {
+    padding: 10px;
+    margin-left: 30px;
+    display: inline;
+}
+/* -------------------Social---------------- */
+
+ul#social {
+    padding: 0;
+    display: inline;
+}
+ul#social li {
+    display: inline;
+}
+ul#social li a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul#social li a:hover {
+    border: dotted 1px darkcyan;
+}
+/* -------------------Menu---------------- */
+
+.menu {
+    padding: 4px;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    z-index: 100;
+}
+ul#menu {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul#menu li {
+    display: inline;
+}
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ul#menu li a:hover {
+    background-color: darkcyan;
+}
+ul#menu.menu {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+/* --------------Customizes buttton colors---------------- */
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    background-color: darkcyan;
+    border-color: darkcyan;
+}
+.button.inverted {
+    font-size: inherit;
+    color: white;
+    border: 1px solid white;
+    text-transform: none;
+}
+.button.inverted:hover {
+    background: white;
+    color: darkcyan;
+}
+/* -----------Customizes font awesome colors------------ */
+
+.fa-facebook,
+.fa-twitter,
+.fa-bars {
+    color: darkcyan;
+}
