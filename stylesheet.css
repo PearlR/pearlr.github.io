@@ -28,7 +28,7 @@ section {
     position: relative;
     background-color: darkcyan;
     color: white;
-    min-height: 500px;
+    min-height: 600px;
 }
 .background-image:before {
     content: '';
@@ -88,19 +88,29 @@ section {
 /* -----------Blog Post Images------------ */
 
 .blog-image-meditation {
-    background-image: url("./meditation.jpg");
+    background-image: url("meditation.jpg");
+    background-attachment: fixed;
     background-color: darkcyan;
     color: white;
     background-size: cover;
     background-position: 50% 50%;
 }
 .blog-image-emotional {
-    background-image: url("https://picjumbo.imgix.net/HNCK9364.jpg?q=40&w=1650&sharp=30");
+    background-image: url("./images/texting-wallpaper-3750x3000.jpg");
+    background-attachment: fixed;
     background-color: darkcyan;
     color: white;
     background-size: cover;
-    background-position: 50% 50%;
+    /*background-position: 50% 50%;*/
 }
+.blog-design-to-web {
+
+} 
+
+.wireframe-img {
+  margin-bottom: 40px;
+}
+
 /* ----------------Quote----------------- */
 
 .quote {
