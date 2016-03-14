@@ -25,22 +25,13 @@ section {
 /* ---------------Background Images--------------- */
 
 .background-image {
-    position: relative;
-    background-color: darkcyan;
-    color: white;
-    min-height: 600px;
-}
-.background-image:before {
-    content: '';
+    background-position: 50% 50%;
     position: absolute;
     top: 0;
     right: 0;
-    left: 0;
     bottom: 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    opacity: .35;
+    left: 0;
+    opacity: .9;
 }
 /* -----------------Home----------------- */
 
@@ -49,20 +40,9 @@ section {
     height: 600px;
     text-align: center;
     position: relative;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9);
 }
 .home-image {
     background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: .9;
 }
 .home h2 {
     font-size: 34px;
@@ -72,6 +52,7 @@ section {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
     margin-top: 220px;
+    color: white;
 }
 /* -----------------About---------------- */
 
@@ -85,31 +66,28 @@ section {
     background-color: darkcyan;
     color: white;
 }
-/* -----------Blog Post Images------------ */
+/* -----------Blog Post Header Images------------ */
 
 .blog-image-meditation {
     background-image: url("meditation.jpg");
     background-attachment: fixed;
-    background-color: darkcyan;
-    color: white;
     background-size: cover;
-    background-position: 50% 50%;
 }
 .blog-image-emotional {
-    background-image: url("./images/texting-wallpaper-3750x3000.jpg");
+    background-image: url("picjumbo.com_HNCK0343.jpg");
     background-attachment: fixed;
-    background-color: darkcyan;
-    color: white;
     background-size: cover;
-    /*background-position: 50% 50%;*/
 }
 .blog-design-to-web {
-
+    background-image: url("https://picjumbo.imgix.net/HNCK0906.jpg?q=40&w=1650&sharp=30");
+    background-attachment: fixed;
+    background-size: cover;
 } 
-
-.wireframe-img {
-  margin-bottom: 40px;
-}
+.blog-reflections {
+    background-image: url("picjumbo.com_HNCK0343.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+} 
 
 /* ----------------Quote----------------- */
 
