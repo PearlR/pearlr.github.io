@@ -105,7 +105,11 @@ section {
     background-attachment: fixed;
     background-size: cover;
 } 
-
+.blog-mindful {
+    background-image: url("https://picjumbo.imgix.net/HNCK5776.jpg?q=40&w=1650&sharp=30");
+    background-attachment: fixed;
+    background-size: cover;
+} 
 /* ----------------Quote----------------- */
 
 .quote {
@@ -148,41 +152,7 @@ ul#social li a {
 ul#social li a:hover {
     border: dotted 1px darkcyan;
 }
-/* -------------------Menu---------------- */
 
-.menu {
-    padding: 4px;
-    margin-top: 14px;
-    margin-left: 14px;
-    margin-bottom: 14px;
-    z-index: 100;
-}
-ul#menu {
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-ul#menu li {
-    display: inline;
-}
-ul#menu li a {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-ul#menu li a:hover {
-    background-color: darkcyan;
-}
-ul#menu.menu {
-    position: fixed;
-    width: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 0;
-    margin: 0;
-}
 /* --------------Customizes buttton colors---------------- */
 
 .button.button-primary,
@@ -222,3 +192,41 @@ input[type="button"].button-primary {
     background: rgba(0,139,139,1);
     color:white;
 }
+
+/* -------------------Menu---------------- */
+
+.menu {
+    padding: 4px;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    z-index: 100;
+}
+ul#menu {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul#menu li {
+    display: inline;
+}
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    min-width:140px;
+}
+ul#menu li a:hover {
+    background-color: darkcyan;
+}
+ul#menu.menu {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
