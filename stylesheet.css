@@ -32,6 +32,8 @@ section {
     bottom: 0;
     left: 0;
     opacity: .9;
+    background-attachment: fixed;
+    background-size: cover;
 }
 /* -----------------Home----------------- */
 
@@ -40,11 +42,6 @@ section {
     height: 600px;
     text-align: center;
     position: relative;
-}
-.home-image {
-    background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 .home h2 {
     font-size: 34px;
@@ -80,35 +77,32 @@ section {
 
 /* -----------Blog Post Header Images------------ */
 
+.home-image {
+    background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
+}
 .blog-image-meditation {
-    background-image: url("meditation.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url("https://picjumbo.imgix.net/HNCK9329.jpg?q=40&w=1650&sharp=30");
 }
 .blog-image-emotional {
-    background-image: url("picjumbo.com_HNCK0343.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url("https://picjumbo.imgix.net/HNCK8433.jpg?q=40&w=1650&sharp=30");
 }
 .blog-design-to-web {
     background-image: url("https://picjumbo.imgix.net/HNCK0906.jpg?q=40&w=1650&sharp=30");
-    background-attachment: fixed;
-    background-size: cover;
 } 
 .blog-reflections {
-    background-image: url("picjumbo.com_HNCK0343.jpg");
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url("https://picjumbo.imgix.net/HNCK5776.jpg?q=40&w=1650&sharp=30");
 } 
 .blog-technical {
     background-image: url("https://picjumbo.imgix.net/P1010617.jpg?q=40&w=1650&sharp=30");
-    background-attachment: fixed;
-    background-size: cover;
 } 
 .blog-mindful {
     background-image: url("https://picjumbo.imgix.net/HNCK5776.jpg?q=40&w=1650&sharp=30");
-    background-attachment: fixed;
-    background-size: cover;
+} 
+.blog-problem {
+    background-image: url("https://picjumbo.imgix.net/HNCK8984.jpg?q=40&w=1650&sharp=30");
+} 
+.blog-confedence {
+    background-image: url("https://picjumbo.imgix.net/HNCK3447.jpg?q=40&w=1650&sharp=30");
 } 
 /* ----------------Quote----------------- */
 
@@ -215,7 +209,6 @@ ul#menu li a {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    min-width:140px;
 }
 ul#menu li a:hover {
     background-color: darkcyan;
@@ -229,4 +222,3 @@ ul#menu.menu {
     left: 0;
     margin: 0;
 }
-
