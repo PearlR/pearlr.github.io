@@ -9,8 +9,10 @@ h3 {
     font-family: 'graphique_pro_next_comp';
     font-size: 48pt;
 }
-h4 {} 
+h4 {margin: 20px;} 
 h5 {}
+
+p, em, strong { margin: 20px; }
 /* ---------------Some Basics---------- */
 
 section {
