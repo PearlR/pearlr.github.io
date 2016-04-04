@@ -24,26 +24,13 @@ section {
     margin-right: auto;
 }
 .container {}
-/* ---------------Background Images--------------- */
 
-.background-image {
-    background-position: 50% 50%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: .9;
-    background-attachment: fixed;
-    background-size: cover;
-}
 /* -----------------Home----------------- */
 
 .home {
     padding: 0;
     height: 600px;
     text-align: center;
-    position: relative;
 }
 .home h2 {
     font-size: 34px;
@@ -80,7 +67,7 @@ section {
 /* -----------Blog Post Header Images------------ */
 
 .home-image {
-    background: url("./images/back_to_work-wallpaper-2560x2048.jpg") no-repeat;
+    background: url("./images/back_to_work-wallpaper-2560x2048.jpg");
 }
 .blog-image-meditation {
     background-image: url("https://picjumbo.imgix.net/HNCK9329.jpg?q=40&w=1650&sharp=30");
@@ -106,6 +93,27 @@ section {
 .blog-confedence {
     background-image: url("https://picjumbo.imgix.net/HNCK3447.jpg?q=40&w=1650&sharp=30");
 } 
+.blog-lang {
+    background-image: url("https://picjumbo.imgix.net/P1000571.jpg?q=40&w=1650&sharp=30");
+} 
+.blog-control {
+    background-image: url("https://picjumbo.imgix.net/HNCK2197.jpg?q=40&w=1650&sharp=30");
+} 
+
+/* ---------------Background Images--------------- */
+
+.background-image {
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /* ----------------Quote----------------- */
 
 .quote {
