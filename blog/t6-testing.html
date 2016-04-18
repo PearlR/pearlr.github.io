@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Page Meta -->
+
+    <title>Blog Post</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+
+    <!-- Page Links / Resources -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="..\fonts\fonts.css">
+    <link rel="stylesheet" href="..\stylesheet.css">
+
+</head>
+
+<body>
+
+    <!-- Main Menu -->
+
+    <div class="navigation">
+
+        <ul class="menu" id="menu" role="navigation">
+          <li><a href="http://pearlr.github.io/#blog">Back to All Blogs</a></li>
+        </ul>
+        
+    </div>
+
+    <!-- Home Page Section -->
+
+    <section id="home" class="home u-full-width">
+
+        <!-- add custom blog header class -->
+
+        <div class="blog-testing background-image"></div>
+        <div class="container centered">
+            <div class="twelve columns">
+
+                <div class="home-container">
+                    <h1>Testing</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Blog Page Section -->
+
+    <section class="u-full-width">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+
+                <h3>Say no to trolls!</h3>
+
+                <h4>What 'scope' is, and how does it work in JavaScript?</h4>
+
+                <p>What is scope: It's the variables, objects and functions that you have access to. But...</p>
+
+                <img src="../whatdoesitmean.jpg" alt="what does it mean?">
+
+                <p>Great question Matthias. So after understanding the technical in's and out's of scoping (variables, objects and functions that you have access to - cool) I was all like "Ok I get this - but why should I care? My variables are global and any function can access them or local and only those functions can access them - big deal. I don't care."</p> 
+
+                <p>Oh ho! Why did I not get the significance of this? Why was this a big deal yet I didn't understand that it was a big deal? Because at the moment I'm mostly working solo so at first it never occurred to me that it matters when you're working in a team and they have access to stuff. But they might decide it's a great idea to use some of your variables and totally mess up your app. Or worse - the trolls come trolling. Here's are a few quick diagrams to help my non-tech friends understand:</p>
+
+                <h4>No Scope</h4>
+
+                <p>So here you can see I made a cool app with my niece Silvia - but we gave everything global scope and every Tom, Dick and Harry has access to our app variables, objects and functions. Those Trolls realized that we left the keys to the castle in the front gate and they've ransacked all our riches and left us negative comments on our Facebook page!</p>
+
+                <img src="../noscope.jpg" alt="noscope">
+
+                <h4>Yes Scope</h4>
+
+                <p>Here you can see that my niece Silvia and I have access to all the things. We have the keys to the castle safely stored in our unicorn treasure chest. I'm kinda tough but Silvia wants to share so we let our team and a few others have access to some, I said SOME, of the things. They can access parts of the castle when they need to. And then there's the trolls who are not allowed access to any of the things. No haters near my niece.</p>
+
+                <img src="../scope.jpg" alt="yesscope">
+
+                <p>And here's a visual explanation for my codey nerdy mates:</p>
+
+                <h4>No Scope</h4>
+
+                <img class="test-pic-1" src="http://image.slidesharecdn.com/javascriptvariableperformance-1232603863139252-1/95/javascript-variable-performance-3-728.jpg?cb=1246211048" alt="com on!">
+                
+                <h4>Yes Scope</h4>
+
+                <img calss="test-pic-2" src="http://image.slidesharecdn.com/javascriptvariableperformance-1232603863139252-1/95/javascript-variable-performance-12-728.jpg?cb=1246211048" alt="Nice">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="row u-full-width">
+            <div class="twelve columns">
+
+                <p class="copy-stuff">Made with &hearts; by Pearl Robin &copy; 2016</p>
+
+                <ul class="social" id="social">
+                    <li class="twitter"><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                    </li>
+                    <li class="instagram"><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

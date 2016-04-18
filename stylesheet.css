@@ -102,6 +102,12 @@ section {
 .blog-motivate {
     background-image: url("https://picjumbo.imgix.net/HNCK0182.jpg?q=40&w=1650&sharp=30");
 }
+.blog-testing {
+    background-image: url("https://picjumbo.imgix.net/P1000571.jpg?q=40&w=1650&sharp=30");
+}
+.blog-connect {
+    background-image: url("https://picjumbo.imgix.net/HNCK7278.jpg?q=40&w=1650&sharp=30");
+}
 
 /* ---------------Background Images--------------- */
 
@@ -116,7 +122,6 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
-
 /* ----------------Quote----------------- */
 
 .quote {
@@ -159,7 +164,6 @@ ul#social li a {
 ul#social li a:hover {
     border: dotted 1px darkcyan;
 }
-
 /* --------------Customizes buttton colors---------------- */
 
 .button.button-primary,
@@ -187,7 +191,6 @@ input[type="button"].button-primary {
 .fa-bars {
     color: darkcyan;
 }
-
 /*-----------Changes pointer highlighter color-------------*/
 
 ::-moz-selection { /* Code for Firefox */
@@ -199,7 +202,6 @@ input[type="button"].button-primary {
     background: rgba(0,139,139,1);
     color:white;
 }
-
 /* -------------------Menu---------------- */
 
 .menu {
